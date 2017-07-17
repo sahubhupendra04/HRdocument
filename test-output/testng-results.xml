@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="18260" started-at="2017-07-17T13:22:26Z" finished-at="2017-07-17T13:22:44Z">
+    <groups>
+    </groups>
+    <test name="RegressionTest" duration-ms="18260" started-at="2017-07-17T13:22:26Z" finished-at="2017-07-17T13:22:44Z">
+      <class name="com.hrdocument.tests.Demo2">
+        <test-method status="PASS" signature="setDriverPath()[pri:0, instance:com.hrdocument.tests.Demo2@735b5592]" name="setDriverPath" is-config="true" duration-ms="23" started-at="2017-07-17T18:52:26Z" finished-at="2017-07-17T18:52:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriverPath -->
+        <test-method status="PASS" signature="openApp()[pri:0, instance:com.hrdocument.tests.Demo2@735b5592]" name="openApp" is-config="true" duration-ms="14844" started-at="2017-07-17T18:52:26Z" finished-at="2017-07-17T18:52:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="testt()[pri:0, instance:com.hrdocument.tests.Demo2@735b5592]" name="testt" duration-ms="30" started-at="2017-07-17T18:52:41Z" finished-at="2017-07-17T18:52:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testt -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.hrdocument.tests.Demo2@735b5592]" name="closeApp" is-config="true" duration-ms="3343" started-at="2017-07-17T18:52:41Z" finished-at="2017-07-17T18:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.hrdocument.tests.Demo2 -->
+    </test> <!-- RegressionTest -->
+  </suite> <!-- Suite -->
+</testng-results>
