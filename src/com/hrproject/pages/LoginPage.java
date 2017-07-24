@@ -3,12 +3,15 @@ package com.hrproject.pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import generics.BasePage;
 
 public class LoginPage extends BasePage
 {
-
+	
+	//Declaration
 	@FindBy(id= "username")
 	private WebElement unTXB;
 	
@@ -45,11 +48,14 @@ public class LoginPage extends BasePage
 	public void clickLogin()
 	{
 		loginBTN.click();
+		
 	}
 	
 	public void verifyErrMsgIsSisplay()
 	{
+		
 		verifyElementIsPresent(errMSG);
+		System.out.println("error msg on screen="+errMSG.getText());
 	}
 	
 	public String getVersion()

@@ -11,7 +11,7 @@ import generics.BasePage;
 public class LicencesPage extends BasePage
 {
 
-	@FindBy(xpath="//nobr[test()='productEdition:']/../../td[2]/b")
+	@FindBy(xpath="//b[contains(text(), 'actiTIME ')]")
 		private WebElement productEdition;
 	
 	
@@ -25,6 +25,7 @@ public class LicencesPage extends BasePage
 	public void veriftProductEdition(String evalue)
 	{
 		String avalue=  productEdition.getText();
+		System.out.println("versoin frm Licence page="+avalue);
 		Assert.assertEquals(avalue, evalue);
 	}
 	

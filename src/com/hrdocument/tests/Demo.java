@@ -7,7 +7,7 @@ import generics.BaseTest;
 
 public class Demo extends BaseTest 
 {
-	@Test
+	@Test(enabled = false)
 	public void testA()
 	{
 		Assert.fail();

@@ -1,9 +1,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="Suite" parallel="false">
 	  <test name= "RegressionTest">
-	   <Packages>
-		<package name= "com.hrdocument.tests"/> 
-		 
+	   <packages>
+		<package name= "com.hrdocument.tests"/>  
 	   </packages>
 	  </test>
 	</suite>	

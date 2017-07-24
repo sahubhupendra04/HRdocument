@@ -35,6 +35,7 @@ public class BaseTest implements IAutoConst
 	public void closeApp()
 	{
 	driver.close();
+	driver.quit();
 	}
 	
 	
