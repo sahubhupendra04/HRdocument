@@ -20,16 +20,16 @@
       <![CDATA[Element is Present:]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="71770" started-at="2017-07-24T12:25:39Z" finished-at="2017-07-24T12:26:51Z">
+  <suite name="Suite" duration-ms="65487" started-at="2017-07-27T12:45:00Z" finished-at="2017-07-27T12:46:05Z">
     <groups>
     </groups>
-    <test name="RegressionTest" duration-ms="71770" started-at="2017-07-24T12:25:39Z" finished-at="2017-07-24T12:26:51Z">
+    <test name="RegressionTest" duration-ms="65487" started-at="2017-07-27T12:45:00Z" finished-at="2017-07-27T12:46:05Z">
       <class name="com.hrdocument.tests.ValidLoginLogout">
-        <test-method status="PASS" signature="openApp()[pri:0, instance:com.hrdocument.tests.ValidLoginLogout@28feb3fa]" name="openApp" is-config="true" duration-ms="9818" started-at="2017-07-24T17:55:39Z" finished-at="2017-07-24T17:55:49Z">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:com.hrdocument.tests.ValidLoginLogout@28feb3fa]" name="openApp" is-config="true" duration-ms="9301" started-at="2017-07-27T18:15:00Z" finished-at="2017-07-27T18:15:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method status="PASS" signature="testValidLoginLogout()[pri:1, instance:com.hrdocument.tests.ValidLoginLogout@28feb3fa]" name="testValidLoginLogout" duration-ms="5736" started-at="2017-07-24T17:55:49Z" finished-at="2017-07-24T17:55:55Z">
+        <test-method status="PASS" signature="testValidLoginLogout()[pri:1, instance:com.hrdocument.tests.ValidLoginLogout@28feb3fa]" name="testValidLoginLogout" duration-ms="5105" started-at="2017-07-27T18:15:09Z" finished-at="2017-07-27T18:15:14Z">
           <reporter-output>
             <line>
               <![CDATA[Title is Matching:actiTIME - Enter Time-Track]]>
@@ -39,37 +39,37 @@
             </line>
           </reporter-output>
         </test-method> <!-- testValidLoginLogout -->
-        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.hrdocument.tests.ValidLoginLogout@28feb3fa]" name="closeApp" is-config="true" duration-ms="4737" started-at="2017-07-24T17:55:55Z" finished-at="2017-07-24T17:55:59Z">
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.hrdocument.tests.ValidLoginLogout@28feb3fa]" name="closeApp" is-config="true" duration-ms="3422" started-at="2017-07-27T18:15:14Z" finished-at="2017-07-27T18:15:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
       </class> <!-- com.hrdocument.tests.ValidLoginLogout -->
       <class name="com.hrdocument.tests.VerifyVersion">
-        <test-method status="PASS" signature="openApp()[pri:0, instance:com.hrdocument.tests.VerifyVersion@675d3402]" name="openApp" is-config="true" duration-ms="8320" started-at="2017-07-24T17:56:28Z" finished-at="2017-07-24T17:56:36Z">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:com.hrdocument.tests.VerifyVersion@675d3402]" name="openApp" is-config="true" duration-ms="7029" started-at="2017-07-27T18:15:45Z" finished-at="2017-07-27T18:15:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method status="PASS" signature="testVerifyVersion()[pri:3, instance:com.hrdocument.tests.VerifyVersion@675d3402]" name="testVerifyVersion" duration-ms="10041" started-at="2017-07-24T17:56:36Z" finished-at="2017-07-24T17:56:46Z">
+        <test-method status="PASS" signature="testVerifyVersion()[pri:3, instance:com.hrdocument.tests.VerifyVersion@675d3402]" name="testVerifyVersion" duration-ms="9549" started-at="2017-07-27T18:15:52Z" finished-at="2017-07-27T18:16:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testVerifyVersion -->
-        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.hrdocument.tests.VerifyVersion@675d3402]" name="closeApp" is-config="true" duration-ms="4500" started-at="2017-07-24T17:56:46Z" finished-at="2017-07-24T17:56:51Z">
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.hrdocument.tests.VerifyVersion@675d3402]" name="closeApp" is-config="true" duration-ms="3528" started-at="2017-07-27T18:16:02Z" finished-at="2017-07-27T18:16:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
       </class> <!-- com.hrdocument.tests.VerifyVersion -->
       <class name="com.hrdocument.tests.Demo">
-        <test-method status="PASS" signature="setDriverPath()[pri:0, instance:com.hrdocument.tests.Demo@20e2cbe0]" name="setDriverPath" is-config="true" duration-ms="20" started-at="2017-07-24T17:55:39Z" finished-at="2017-07-24T17:55:39Z">
+        <test-method status="PASS" signature="setDriverPath()[pri:0, instance:com.hrdocument.tests.Demo@20e2cbe0]" name="setDriverPath" is-config="true" duration-ms="18" started-at="2017-07-27T18:15:00Z" finished-at="2017-07-27T18:15:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDriverPath -->
       </class> <!-- com.hrdocument.tests.Demo -->
       <class name="com.hrdocument.tests.InvalidLogin">
-        <test-method status="PASS" signature="openApp()[pri:0, instance:com.hrdocument.tests.InvalidLogin@68be2bc2]" name="openApp" is-config="true" duration-ms="7548" started-at="2017-07-24T17:55:59Z" finished-at="2017-07-24T17:56:07Z">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:com.hrdocument.tests.InvalidLogin@68be2bc2]" name="openApp" is-config="true" duration-ms="7087" started-at="2017-07-27T18:15:18Z" finished-at="2017-07-27T18:15:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method status="PASS" signature="testInvalidLogin()[pri:2, instance:com.hrdocument.tests.InvalidLogin@68be2bc2]" name="testInvalidLogin" duration-ms="16666" started-at="2017-07-24T17:56:07Z" finished-at="2017-07-24T17:56:24Z">
+        <test-method status="PASS" signature="testInvalidLogin()[pri:2, instance:com.hrdocument.tests.InvalidLogin@68be2bc2]" name="testInvalidLogin" duration-ms="17054" started-at="2017-07-27T18:15:25Z" finished-at="2017-07-27T18:15:42Z">
           <reporter-output>
             <line>
               <![CDATA[Element is Present:]]>
@@ -85,7 +85,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- testInvalidLogin -->
-        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.hrdocument.tests.InvalidLogin@68be2bc2]" name="closeApp" is-config="true" duration-ms="4335" started-at="2017-07-24T17:56:24Z" finished-at="2017-07-24T17:56:28Z">
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.hrdocument.tests.InvalidLogin@68be2bc2]" name="closeApp" is-config="true" duration-ms="3373" started-at="2017-07-27T18:15:42Z" finished-at="2017-07-27T18:15:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->

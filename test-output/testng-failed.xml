@@ -5,6 +5,7 @@
     <classes>
       <class name="com.hrdocument.tests.ValidLoginLogout">
         <methods>
+          <include name="closeApp"/>
           <include name="openApp"/>
           <include name="testValidLoginLogout"/>
           <include name="setDriverPath"/>
